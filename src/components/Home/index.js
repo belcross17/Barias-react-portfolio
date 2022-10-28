@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import Loader from 'react-loaders'
 import LogoTitle  from '../../assets/images/logo-b.png'
+import Logo from './logo'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
@@ -38,6 +39,7 @@ const Home = () => {
                 <h2> Future Frontend Developer / Registered Nurse / Anime Lover</h2>
                 <Link to="/contact" className="flat-button">CONTACT ME</Link>
             </div>
+            <Logo />
         </div>
     </>
     );
