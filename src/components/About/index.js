@@ -1,12 +1,14 @@
 import { faAngular, faCss3, faGitAlt, faHtml5, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
+import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import './index.scss'
 
 const About = () => {
     const [letterClass] =  useState('text-animate')
     return (
+        <>
         <div className='container about-page'>
             <div className='text-page'>
                 <h1>
@@ -56,6 +58,8 @@ const About = () => {
 
             </div>
         </div>
+        <Loader type="pacman" />
+        </>
     )
 }
 
