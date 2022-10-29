@@ -33,11 +33,14 @@
         margin-top: -120px;
         width: 100%;
 
-        .fa-house, .fa-user, .fa-envelope {
+        .fa-house,
+        .fa-user,
+        .fa-envelope {
             height: 80%;
+            color: #4d4d4e;
         }
 
-        a{
+        a {
             font-size: 22px;
             color: #4d4d4e;
             display: block;
@@ -77,20 +80,20 @@
             }
 
             &:first-child {
-                &::after {
+                &:after {
                     content: 'HOME';
                 }
             }
         }
 
         a.about-link {
-            &::after {
+            &:after {
                 content: 'ABOUT';
             }
         }
 
         a.contact-link {
-            &::after {
+            &:after {
                 content: 'CONTACT';
             }
         }
@@ -113,7 +116,9 @@
         margin: 0;
 
         li {
-            .fa-linkedin, .fa-github {
+
+            .fa-linkedin,
+            .fa-github {
                 height: 50px;
             }
 
@@ -122,6 +127,7 @@
                 display: block;
                 font-size: 15px;
                 line-height: 16px;
+                color: #4d4d4e;
 
                 &:hover svg {
                     color: #ffd700;
@@ -132,3 +138,46 @@
     }
 
 }
+
+// @media screen and (max-width: 1200px) {
+//     .nav-bar { 
+//       background: transparent;
+//       position: initial;
+//       height: auto;
+//       min-height: auto;
+  
+//        ul, nav {
+//         display: none;
+//        }
+  
+//        nav {
+//         width: 100%;
+//         top: 0;
+//         left: 0;
+//         background: #181818;
+//         height: 100%;
+//         margin: 0;
+//         z-index: 2;
+//         position: fixed;
+  
+//         a {
+//           display: flex;
+//           justify-content: center;
+//           align-items: center;
+//         }
+  
+//         a:after {
+//           opacity: 1;
+//           position: initial;
+//           width: auto;
+//           margin-left: 10PX;
+//         }
+  
+//         a svg {
+//           opacity: 1 !important;
+//         }
+//        }
+//     }
+//   }
+
+

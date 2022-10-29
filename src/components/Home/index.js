@@ -7,10 +7,10 @@ import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
 const Home = () => {
-    const [letterClass] =  useState('text-animate')
+    const [letterClass, ] =  useState('text-animate')
     const nameArray = ['P', 'o', 'r', 't', 'f','o', 'l', 'i', 'o']
     const jobArray = ['F','u', 'l', 'l', ' ', 'S','t', 'a', 'c', 'k', ' ', 'W', 'e', 'b', ' ','D', 'e', 'v', 'e', 'l', 'o', 'p', 'e', 'r',]
-    
+
     return(
         <>
         <div className="container home-page">

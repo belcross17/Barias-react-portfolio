@@ -1,10 +1,10 @@
 import { Link, NavLink } from 'react-router-dom'
-import './index.scss'
 import LogoB from '../../assets/images/logo-b.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faUser } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import './index.scss'
 
 const Sidebar = () => (
     <div className='nav-bar'>
@@ -13,7 +13,7 @@ const Sidebar = () => (
             <img className="sub-logo" src={LogoSubtitle} alt="Brayan Arias" />
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/">
+            <NavLink exact="true" activeclassname="active" className="home-link" to="/">
                 <FontAwesomeIcon icon={faHome} color="#4d4d4e" />
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
