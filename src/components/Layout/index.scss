@@ -19,7 +19,8 @@
     animation-delay: 1s;
 }
 
-.about-page{
+.container.about-page,
+.container.contact-page {
     .text-page {
         position: absolute;
         left: 10%;
@@ -43,7 +44,7 @@
     }
 }
 
-p {
+p, ul li {
     font-size: 15px;
     color: #fff;
     font-family: sans-serif;
