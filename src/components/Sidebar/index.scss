@@ -35,7 +35,8 @@
 
         .fa-house,
         .fa-user,
-        .fa-envelope {
+        .fa-envelope,
+        .fa-suitcase {
             height: 80%;
             color: #4d4d4e;
         }
@@ -68,7 +69,7 @@
 
             &:after {
                 content: '';
-                font-size: 18px;
+                font-size: 14px;
                 letter-spacing: 2px;
                 position: absolute;
                 bottom: 0;
@@ -95,6 +96,12 @@
         a.contact-link {
             &:after {
                 content: 'CONTACT';
+            }
+        }
+
+        a.portfolio-link {
+            &:after {
+                content: 'PORTFOLIO';
             }
         }
 
