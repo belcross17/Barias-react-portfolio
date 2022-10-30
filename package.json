@@ -2,6 +2,7 @@
   "name": "barias-react-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://belcross17.github.io/Barias-react-portfolio/",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
@@ -13,6 +14,7 @@
     "@testing-library/user-event": "^13.5.0",
     "animate.css": "^4.1.1",
     "firebase": "^9.12.1",
+    "gh-pages": "^4.0.0",
     "gsap-trial": "^3.11.3",
     "leaflet": "^1.9.2",
     "loaders.css": "^0.1.2",
@@ -29,7 +31,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
