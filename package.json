@@ -2,7 +2,7 @@
   "name": "barias-react-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://belcross17.github.io",
+  "homepage": "https://belcross17.github.io/Barias-react-portfolio/",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@fortawesome/fontawesome-svg-core": "^6.2.0",
@@ -27,7 +27,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -b main -d build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
