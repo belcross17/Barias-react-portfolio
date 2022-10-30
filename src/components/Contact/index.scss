@@ -117,13 +117,21 @@
   
   @media screen and (max-width: 1200px) {
     .map-wrap {
-      float: none;
-      margin: 0;
-      width: 100%;
+      float: right;
+      margin: 5px;
+      width: 50%;
       height: 400px;
     }
     
     .info-map {
+      display: none;
+    }
+    
+    .text-page {
+      width: 30% !important;
+    }
+
+    form ul {
       display: none;
     }
   }
