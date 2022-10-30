@@ -30,4 +30,22 @@
     }
 }
 
+@media screen and (max-width: 1200px) {
+    .solid-logo {
+        position: flex;
+        width: 80%;
+        height: 80%;
+        float: left;
+        margin: 04;
+    }
+
+    .logo-container {
+        right: 5%;
+    }
+    
+    h1 {
+        width: 90%;
+    }
+}
+
 
