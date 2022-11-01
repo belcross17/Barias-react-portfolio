@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Barias-react-portfolio/static/css/main.d2712e9a.css",
+    "main.js": "/Barias-react-portfolio/static/js/main.8d55d9b4.js",
+    "static/js/787.eb23e4c3.chunk.js": "/Barias-react-portfolio/static/js/787.eb23e4c3.chunk.js",
+    "static/media/Screenshot (36).png": "/Barias-react-portfolio/static/media/Screenshot (36).cc623c18fb4d93c72c3f.png",
+    "static/media/run-buddy.png": "/Barias-react-portfolio/static/media/run-buddy.2444410eb17c7be7cdb1.png",
+    "static/media/self.JPG": "/Barias-react-portfolio/static/media/self.ddfeaa8dc60689a57b84.JPG",
+    "static/media/Screenshot (4).png": "/Barias-react-portfolio/static/media/Screenshot (4).4720f3c5fc68ad2aa122.png",
+    "static/media/logo_sub.png": "/Barias-react-portfolio/static/media/logo_sub.44e4be45e1c1f2eb17ab.png",
+    "static/media/logo-b.png": "/Barias-react-portfolio/static/media/logo-b.daf9eb5f98b1463ee88e.png",
+    "static/media/helvetica-neu.ttf": "/Barias-react-portfolio/static/media/helvetica-neu.8a19678078a6b21c8057.ttf",
+    "static/media/LaBelleAurore.woff2": "/Barias-react-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
+    "static/media/CoolveticaRg-Regular.woff2": "/Barias-react-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
+    "index.html": "/Barias-react-portfolio/index.html",
+    "main.d2712e9a.css.map": "/Barias-react-portfolio/static/css/main.d2712e9a.css.map",
+    "main.8d55d9b4.js.map": "/Barias-react-portfolio/static/js/main.8d55d9b4.js.map",
+    "787.eb23e4c3.chunk.js.map": "/Barias-react-portfolio/static/js/787.eb23e4c3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d2712e9a.css",
+    "static/js/main.8d55d9b4.js"
+  ]
+}
